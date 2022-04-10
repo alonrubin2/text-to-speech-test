@@ -10,6 +10,7 @@ function App() {
     speech.volume = 3;
     speech.pitch = 2;
     speech.lang = "he-IL";
+    // speech.lang = "en-US";
     speechSynthesis.speak(speech);
   };
 
